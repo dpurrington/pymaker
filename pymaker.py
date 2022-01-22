@@ -38,7 +38,6 @@ def main(org, token):
         else: break
         # search API is limited to 30 queries per minute
         time.sleep(3)
-        break
 
 if __name__ == '__main__':
     main(*[x for x in sys.argv[1:]])
